@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean | Member Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              soft: {
+                1: '#DCE7F7',
+                2: '#C2D6F5',
+                3: '#A7C5F3',
+                4: '#8DB3F0',
+                5: '#73A2ED',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-soft-1 text-slate-800 antialiased min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
