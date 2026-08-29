@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Mac System Files
+.DS_Store
+
+# Environment & Database Files
+.env
+.env.local
+database.sqlite
+
+# Build Outputs
+dist/
+build/
+*.log
